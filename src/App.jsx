@@ -1,9 +1,10 @@
 import "./App.css";
 import AllRoutes from "./routes/AllRoutes";
+import Header from "./components/header/Header";
 function App() {
   return (
     <main>
-      <h1>byte wise</h1>
+      <Header/>
       <AllRoutes/>
     </main>
   );
