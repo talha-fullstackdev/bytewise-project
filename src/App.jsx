@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-   <h1>byte wise</h1>
+   <h1 >byte wise</h1>
     </>
   )
 }
