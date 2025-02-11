@@ -42,7 +42,7 @@ const TeslaDetails = () => {
               key={index}
               src={icon}
               alt={`Company Logo ${index + 1}`}
-              className="w-12 md:w-14 h-auto"
+              className="w-12  h-auto"
             />
           ))}
         </div>
