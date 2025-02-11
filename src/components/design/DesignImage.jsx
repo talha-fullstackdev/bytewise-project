@@ -1,12 +1,3 @@
-// import React from 'react'
-// import Image from "../../assets/unlock2.png"
-// const DesignImage = () => {
-//   return (
-//         <img className='w-[250px] m-auto md:m-0 md:w-[400px] md:ml-28' src={Image} alt="image" />
-//   )
-// }
-
-// export default DesignImage
 import React from 'react';
 import Image from "../../assets/unlock2.png";
 
