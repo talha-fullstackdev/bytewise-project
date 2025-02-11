@@ -117,7 +117,7 @@ const OurClients = () => {
         <p className="text-[#4D4D4D] leading-[44px] text-md md:text-3xl font-semibold max-w-md mx-auto ">
           Manage your entire community in a single system
         </p>
-        <p className="text-gray-600  text-lg md:text-md mt-2">
+        <p className="text-gray-600  text-lg md:text-md md:mt-2">
           Who is Nextcent suitable for?
         </p>
       </div>
