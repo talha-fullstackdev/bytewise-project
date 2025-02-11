@@ -5,6 +5,7 @@ import Membership from '../components/membership/Membership'
 import PixelGrade from '../components/PixelGrade/PixelGrade'
 import Business from '../components/business/Business'
 import Design from '../components/design/Design'
+import Tesla from '../components/tesla/Tesla'
 const HomePage = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const HomePage = () => {
       <PixelGrade/>
       <Business/>
       <Design/>
+      <Tesla/>
     </>
   )
 }
