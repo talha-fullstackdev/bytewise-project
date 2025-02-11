@@ -3,7 +3,7 @@ import TeslaImage from "./TeslaImage";
 import TeslaDetails from "./TeslaDetails";
 const Tesla = () => {
   return (
-    <div>
+    <div className="mt-10 md:flex justify-around md:ml-[200px]">
       <TeslaImage />
       <TeslaDetails />
     </div>
