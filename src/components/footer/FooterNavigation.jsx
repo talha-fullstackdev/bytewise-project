@@ -1,5 +1,4 @@
 import React from 'react'
-
 const FooterNavigation = () => {
     const data = [
         {
