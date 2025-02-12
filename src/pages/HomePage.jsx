@@ -6,6 +6,7 @@ import PixelGrade from '../components/PixelGrade/PixelGrade'
 import Business from '../components/business/Business'
 import Design from '../components/design/Design'
 import Tesla from '../components/tesla/Tesla'
+import Marketing from '../components/marketing/Marketing'
 const HomePage = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const HomePage = () => {
       <Business/>
       <Design/>
       <Tesla/>
+      <Marketing/>
     </>
   )
 }
