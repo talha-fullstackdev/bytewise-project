@@ -4,7 +4,7 @@ import FooterNavigation from './FooterNavigation'
 import FooterMail from './FooterMail'
 const Footer = () => {
   return (
-    <div>
+    <div className='bg-[#263238]'>
         <FooterLogo/>
         <FooterNavigation/>
         <FooterMail/>

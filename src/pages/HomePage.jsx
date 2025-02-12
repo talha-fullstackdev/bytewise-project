@@ -8,6 +8,7 @@ import Design from '../components/design/Design'
 import Tesla from '../components/tesla/Tesla'
 import Marketing from '../components/marketing/Marketing'
 import Fringilla from "../components/fringilla/Fringilla.jsx"
+import Footer from '../components/footer/Footer.jsx'
 const HomePage = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const HomePage = () => {
       <Tesla/>
       <Marketing/>
       <Fringilla/>
+      <Footer/>
     </>
   )
 }
