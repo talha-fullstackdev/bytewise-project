@@ -146,16 +146,16 @@ const PricingPage = () => {
             className="bg-white shadow-lg rounded-lg p-6 h-[400px] md:h-[400px] flex flex-col items-center text-center border border-gray-200"
           >
             {/* Icon */}
-            <div className="text-5xl text-green-500 mb-6">{item.icon}</div>
+            <div className="text-5xl text-slate-600 mb-6">{item.icon}</div>
 
             {/* Plan Name */}
-            <p className="text-2xl font-semibold text-gray-800">{item.name}</p>
+            <p className="text-2xl font-semibold text-slate-600">{item.name}</p>
 
             {/* Description */}
             <p className="text-gray-600 mt-3 px-4">{item.about}</p>
 
             {/* Price */}
-            <p className="text-3xl font-bold text-green-600 mt-10 mb-6">
+            <p className="text-3xl font-bold text-slate-600 mt-10 mb-6">
               {item.price}
             </p>
 
