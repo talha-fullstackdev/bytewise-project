@@ -19,11 +19,11 @@ const FooterNavigation = () => {
         },
     ]
   return (
-    <div>
+    <div className='flex gap-14'>
        {data.map((item)=>(
-        <div className="">
-               <p>{item.heading}</p>
-               <ul className="">
+        <div className="text-white flex flex-col gap-6">
+               <p className='font-bold'>{item.heading}</p>
+               <ul className="flex flex-col gap-2 text-sm">
                 <li>{item.item1}</li>
                 <li>{item.item2}</li>
                 <li>{item.item3}</li>
