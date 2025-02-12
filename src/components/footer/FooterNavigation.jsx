@@ -21,7 +21,18 @@ const FooterNavigation = () => {
     ]
   return (
     <div>
-
+       {data.map((item)=>(
+        <div className="">
+               <p>{item.heading}</p>
+               <ul className="">
+                <li>{item.item1}</li>
+                <li>{item.item2}</li>
+                <li>{item.item3}</li>
+                <li>{item.item4}</li>
+                <li>{item.item5}</li>
+               </ul>
+        </div>
+       ))}
     </div>
   )
 }
