@@ -132,9 +132,9 @@ const PricingPage = () => {
   ];
 
   return (
-    <div className="px-6 md:px-20 py-10">
+    <div className="px-6 md:px-20 py-4">
       {/* Page Title */}
-      <p className="text-center text-3xl font-bold text-gray-700 mb-10">
+      <p className="text-center text-3xl font-bold text-gray-700 mb-6">
         Find the plan that's right for you
       </p>
 
@@ -143,10 +143,10 @@ const PricingPage = () => {
         {data.map((item, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-lg p-6 h-[500px] md:h-[550px] flex flex-col items-center text-center border border-gray-200"
+            className="bg-white shadow-lg rounded-lg p-6 h-[400px] md:h-[400px] flex flex-col items-center text-center border border-gray-200"
           >
             {/* Icon */}
-            <div className="text-5xl text-slate-500 mb-6">{item.icon}</div>
+            <div className="text-5xl text-green-500 mb-6">{item.icon}</div>
 
             {/* Plan Name */}
             <p className="text-2xl font-semibold text-gray-800">{item.name}</p>
@@ -155,7 +155,7 @@ const PricingPage = () => {
             <p className="text-gray-600 mt-3 px-4">{item.about}</p>
 
             {/* Price */}
-            <p className="text-3xl font-bold text-slate-600 mt-20 mb-6">
+            <p className="text-3xl font-bold text-green-600 mt-10 mb-6">
               {item.price}
             </p>
 
