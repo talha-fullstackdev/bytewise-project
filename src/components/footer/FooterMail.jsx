@@ -1,23 +1,26 @@
-
-import React from 'react';
+import React, { useRef } from "react";
 import { FaLocationArrow } from "react-icons/fa6";
-
 const FooterMail = () => {
+  const messageRef = useRef();
+  const handleButtonClicked = () => {
+    alert("message has been sent");
+    const message = messageRef.current.value;
+    console.log("your message is", message);
+    messageRef.current.value = "";
+  };
   return (
-    <div className=" flex flex-col gap-2">
-      <p className="text-white">Stay up to date</p>
-      {/* Container for input and icon */}
-      <div className="flex items-center bg-[#38474d] rounded-md p-2">
-        {/* Input with removed default styles */}
-        <input 
+    <div className=" flex flex-col gap-2 md:gap-12 md:mb-16 mr-6">
+      <p className="text-white font-semibold md:text-xl">Stay up to date</p>
+      <div className="flex items-center md:w-[300px]  bg-[#38474d] rounded-md p-2 md:p-3">
+        <input
+          ref={messageRef}
           type="email"
           placeholder="Your email address"
-          className="bg-transparent outline-none text-white flex-1 px-2 placeholder-gray-300"
+          className="bg-transparent outline-none text-white  px-2 placeholder-gray-300 md:placeholder:text-lg focus:placeholder-transparent"
         />
-        {/* Icon inside the input div */}
-        <span className="text-white cursor-pointer">
+        <button onClick={handleButtonClicked} className="text-white cursor-pointer">
           <FaLocationArrow />
-        </span>
+        </button>
       </div>
     </div>
   );

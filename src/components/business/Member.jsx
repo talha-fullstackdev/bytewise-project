@@ -18,7 +18,7 @@ const Member = () => {
         },
         {
          icon: <TbHandMove />         ,
-         value:"2,245,341",
+         value:"828,867",
          name:"Event Bookings",
         },
         {

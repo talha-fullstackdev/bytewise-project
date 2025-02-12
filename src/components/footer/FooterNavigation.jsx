@@ -18,17 +18,18 @@ const FooterNavigation = () => {
             item5: "Status",
         },
     ]
+    const liStyling = "hover:underline-offset-4 hover:text-[#4be751] hover:underline"
   return (
-    <div className='flex gap-14'>
-       {data.map((item)=>(
-        <div className="text-white flex flex-col gap-6">
-               <p className='font-bold'>{item.heading}</p>
-               <ul className="flex flex-col gap-2 text-sm">
-                <li>{item.item1}</li>
-                <li>{item.item2}</li>
-                <li>{item.item3}</li>
-                <li>{item.item4}</li>
-                <li>{item.item5}</li>
+    <div className='flex gap-20 md:mt-10'>
+       {data.map((item,index)=>(
+        <div key={index} className="text-white flex flex-col gap-6 cursor-pointer ">
+               <p className={`font-bold md:text-xl md:font-semibold ${liStyling}`}>{item.heading}</p>
+               <ul className="flex flex-col gap-2 text-sm md:text-lg ">
+                <li className={liStyling}>{item.item1}</li>
+                <li className={liStyling}>{item.item2}</li>
+                <li className={liStyling}>{item.item3}</li>
+                <li className={liStyling}>{item.item4}</li>
+                <li className={liStyling}>{item.item5}</li>
                </ul>
         </div>
        ))}

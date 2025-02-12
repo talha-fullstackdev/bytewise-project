@@ -14,7 +14,7 @@ const FooterLogo = () => {
   ];
 
   return (
-    <div className="w-[300px] pl-8 md:pl-0">
+    <div className="w-[300px] pl-8 md:pl-0 md:mt-10">
       <img src={Logo} alt="logo" />
       <p className="my-7 text-[#F5F7FA] text-sm md:text-lg">
         Copyright © 2020 Nexcent Ltd. All rights reserved
