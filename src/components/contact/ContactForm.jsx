@@ -18,7 +18,7 @@ const ContactForm = () => {
     }
   return (
     <div className="mt-8 px-4">
-      <p className="text-center text-2xl font-bold text-slate-600">Contact Us</p>
+      <p className="text-center text-2xl font-bold text-slate-500">Contact Us</p>
       <form className="flex flex-col max-w-[700px] mx-auto  space-y-4 bg-white shadow-lg p-6 rounded-lg">
         <label className="text-slate-500 font-medium">Full Name</label>
         <input

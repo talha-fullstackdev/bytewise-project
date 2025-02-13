@@ -29,7 +29,7 @@ const PricingPage = () => {
   return (
     <div className="px-6 md:px-20 py-4">
       {/* Page Title */}
-      <p className="text-center text-3xl font-bold text-gray-700 mb-6">
+      <p className="text-center text-3xl font-bold text-slate-500 mb-6">
         Find the plan that's right for you
       </p>
 
