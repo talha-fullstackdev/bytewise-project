@@ -1,8 +1,9 @@
 import React from "react";
 import Image from "../../assets/unlock-img.svg";
-
+import AnimatedWrapper from "../../hooks/AnimatedWrapper";
 const PixelGrade = () => {
   return (
+    <AnimatedWrapper>
     <div className="flex flex-col md:flex-row items-center px-6 md:px-16 lg:px-24 gap-6 md:gap-12 mt-8">
       {/* Image Section */}
       <div className="w-full md:w-1/2 flex justify-center">
@@ -29,6 +30,7 @@ const PixelGrade = () => {
         </div>
       </div>
     </div>
+    </AnimatedWrapper>
   );
 };
 

@@ -1,7 +1,10 @@
 import React from "react";
 import data from "./data";
+import AnimatedWrapper from "../../hooks/AnimatedWrapper.jsx";
+
 const ServicesCom = () => {
   return (
+    <AnimatedWrapper>
     <div className="px-6 py-4">
       <p className="text-center text-3xl  text-slate-500 md:font-bold font-semibold mb-6">
         Services
@@ -28,6 +31,7 @@ const ServicesCom = () => {
         ))}
       </div>
     </div>
+    </AnimatedWrapper>
   );
 };
 

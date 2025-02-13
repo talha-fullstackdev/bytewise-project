@@ -6,9 +6,10 @@ import icon4 from "../../assets/clients/icon4.svg";
 import icon5 from "../../assets/clients/icon5.svg";
 import icon6 from "../../assets/clients/icon6.svg";
 import icon7 from "../../assets/clients/icon7.svg";
-
+import AnimatedWrapper from "../../hooks/AnimatedWrapper";
 const OurClients = () => {
   return (
+    <AnimatedWrapper>
     <div className="flex flex-col gap-6 mt-10 px-4">
       {/* Title Section */}
       <div className="text-center">
@@ -41,6 +42,7 @@ const OurClients = () => {
         </p>
       </div>
     </div>
+    </AnimatedWrapper>
   );
 };
 

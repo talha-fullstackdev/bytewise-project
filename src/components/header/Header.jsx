@@ -5,11 +5,13 @@ import Logo from "./Logo";
 import Navbar from "./Navbar";
 import { FiMenu, FiX } from "react-icons/fi";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import AnimatedWrapper from "../../hooks/AnimatedWrapper.jsx";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
+    <AnimatedWrapper>
     <header className="bg-gray-100 pb-6 flex flex-col items-start md:items-center ml-4 gap-2 pt-4 md:p-6 md:flex-row md:justify-evenly relative">
       <Logo />
 
@@ -49,6 +51,7 @@ const Header = () => {
         </motion.div>
       )}
     </header>
+    </AnimatedWrapper>
   );
 };
 

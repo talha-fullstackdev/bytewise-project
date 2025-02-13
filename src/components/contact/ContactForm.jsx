@@ -1,4 +1,6 @@
 import React, { useRef } from 'react';
+import AnimatedWrapper from "../../hooks/AnimatedWrapper.jsx";
+
 const ContactForm = () => {
     const nameRef = useRef()
     const emailRef = useRef()
@@ -17,6 +19,7 @@ const ContactForm = () => {
         alert("your message has been sent")
     }
   return (
+    <AnimatedWrapper>
     <div className="mt-8 px-4">
       <p className="text-center text-2xl font-bold text-slate-500">Contact Us</p>
       <form className="flex flex-col max-w-[700px] mx-auto  space-y-4 bg-white shadow-lg p-6 rounded-lg">
@@ -47,6 +50,7 @@ const ContactForm = () => {
         </button>
       </form>
     </div>
+    </AnimatedWrapper>
   );
 };
 

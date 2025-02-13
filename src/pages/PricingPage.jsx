@@ -3,7 +3,7 @@ import React from "react";
 import { FaSquareWebAwesome } from "react-icons/fa6";
 import { IoLogoAndroid } from "react-icons/io";
 import { SiAdobexd } from "react-icons/si";
-
+import AnimatedWrapper from "../hooks/AnimatedWrapper";
 const PricingPage = () => {
   const data = [
     {
@@ -27,6 +27,7 @@ const PricingPage = () => {
   ];
 
   return (
+    <AnimatedWrapper>
     <div className="px-6 md:px-20 py-4">
       {/* Page Title */}
       <p className="text-center text-3xl font-bold text-slate-500 mb-6">
@@ -62,6 +63,7 @@ const PricingPage = () => {
         ))}
       </div>
     </div>
+    </AnimatedWrapper>
   );
 };
 

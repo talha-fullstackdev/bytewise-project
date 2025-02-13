@@ -1,7 +1,10 @@
 import React from 'react'
 import Image from "../../assets/about.svg"
+import AnimatedWrapper from "../../hooks/AnimatedWrapper.jsx";
+
 const AboutCom = () => {
   return (
+    <AnimatedWrapper>
     <div className='flex flex-col mt-10 md:mt-8 px-10 md:flex-row md:items-center md:justify-evenly md:flex-wrap'>
         <div className="md:max-w-[580px] md:pl-10">
             <p className='text-slate-500 font-semibold text-lg md:text-4xl'>Welcome to About Page</p>
@@ -12,6 +15,7 @@ const AboutCom = () => {
             <img src={Image} alt="about-image" />
         </div>
     </div>
+    </AnimatedWrapper>
   )
 }
 

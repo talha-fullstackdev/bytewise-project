@@ -1,8 +1,10 @@
 import React from 'react';
 import { IoIosArrowRoundForward } from "react-icons/io";
+import AnimatedWrapper from "../../hooks/AnimatedWrapper.jsx";
 
 const Fringilla = () => {
   return (
+    <AnimatedWrapper>
     <div className='bg-gray-100 px-4 py-10 md:py-20'>
       <div className="text-center">
         <p className='text-2xl sm:text-3xl md:text-4xl md:w-[400px] md:m-auto font-semibold text-[#4D4D4D]'>
@@ -16,6 +18,7 @@ const Fringilla = () => {
         </div>
       </div>
     </div>
+    </AnimatedWrapper>
   );
 }
 

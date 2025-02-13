@@ -1,9 +1,11 @@
 
 import React from "react";
 import heroImage from "../../assets/hero/hero-poster.svg";
+import AnimatedWrapper from "../../hooks/AnimatedWrapper.jsx";
 const Hero = () => {
   return (
-    <div className="  bg-gray-100 flex flex-col items-center py-10 px-4 text-center md:flex-row md:justify-around md:text-left">
+    <AnimatedWrapper>
+    <div  className="bg-gray-100 flex flex-col items-center py-10 px-4 text-center md:flex-row md:justify-around md:text-left">
 
       <section className="flex flex-col items-center gap-4 max-w-md md:max-w-lg md:items-start w-full md:w-auto ">
         <h1 className="text-gray-700 font-semibold text-xl md:text-5xl md:max-w-[700px] leading-tight">
@@ -20,6 +22,7 @@ const Hero = () => {
 
       <img className="w-[250px] md:w-[350px] mt-12 " src={heroImage} alt="hero image" />
     </div>
+    </AnimatedWrapper>
   );
 };
 
