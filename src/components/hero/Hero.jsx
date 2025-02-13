@@ -18,7 +18,7 @@ const Hero = () => {
         </button>
       </section>
 
-      <img className="w-[250px] md:w-[450px] mt-12 " src={heroImage} alt="hero image" />
+      <img className="w-[250px] md:w-[350px] mt-12 " src={heroImage} alt="hero image" />
     </div>
   );
 };
