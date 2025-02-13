@@ -24,7 +24,7 @@ const FooterLogo = () => {
         {icons.map((icon) => (
           <div
             key={icon.key}
-            className="w-10 h-10 md:w-12 md:h-12 bg-[#38474d]  rounded-full flex items-center justify-center"
+            className="w-10 h-10 md:w-12 md:h-12 bg-[#38474d]  hover:text-[#4be751]  cursor-pointer  rounded-full flex items-center justify-center"
           >
             {icon}
           </div>
