@@ -1,6 +1,4 @@
-
 import { useEffect, useRef, useState } from "react";
-
 const AnimatedWrapper = ({ children, threshold = 0.3 }) => {
   const ref = useRef(null);
   const [hasAnimated, setHasAnimated] = useState(false); // Track if animation happened
