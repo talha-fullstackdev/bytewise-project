@@ -19,7 +19,6 @@ const FooterLogo = () => {
       <p className="my-7 text-[#F5F7FA] text-sm md:text-lg">
         Copyright © 2020 Nexcent Ltd. All rights reserved
       </p>
-      {/* Flex container for icons */}
       <div className="flex space-x-4 text-white text-2xl">
         {icons.map((icon) => (
           <div

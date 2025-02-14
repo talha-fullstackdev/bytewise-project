@@ -12,18 +12,15 @@ const Membership = () => {
             key={index}
             className="flex flex-col items-center text-center w-full max-w-[350px] p-6 rounded-lg shadow-md shadow-gray-300 bg-white"
           >
-            {/* Icon with Background */}
             <div className="relative flex items-center justify-center w-16 h-16">
               <div className="absolute left-[25px] bg-[#cae9cc] w-14 h-16 rounded-md rounded-tl-[30px] rounded-br-[30px]"></div>
               <img src={item.logo} alt="logo" className="w-14 h-14 relative" />
             </div>
 
-            {/* Heading */}
             <p className="text-xl md:text-2xl lg:text-3xl font-semibold text-[#4D4D4D] mt-4">
               {item.heading}
             </p>
 
-            {/* Description */}
             <p className="text-gray-500 text-base md:text-lg mt-2 leading-relaxed">
               {item.paragraph}
             </p>

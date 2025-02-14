@@ -13,7 +13,6 @@ const TeslaDetails = () => {
 
   return (
     <div className="px-6 py-12 md:mr-20">
-      {/* Text Section */}
       <div className="max-w-lg md:max-w-2xl lg:max-w-3xl mx-auto text-center md:text-left text-gray-700">
         <p className="text-base md:text-lg leading-relaxed text-gray-600">
           Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis
@@ -33,9 +32,7 @@ const TeslaDetails = () => {
         <p className="text-gray-500 text-sm">British Dragon Boat Racing Association</p>
       </div>
 
-      {/* Logos & Button Section */}
       <div className="mt-8 flex flex-col md:flex-row items-center justify-between gap-6">
-        {/* Logos */}
         <div className="flex flex-wrap justify-center md:justify-start gap-6 md:gap-10">
           {icons.map((icon, index) => (
             <img
@@ -47,7 +44,6 @@ const TeslaDetails = () => {
           ))}
         </div>
 
-        {/* Button */}
         <button className="mt-6 md:mt-0 flex items-center gap-2 text-green-600 font-medium hover:text-green-700 transition-all duration-300 ease-in-out">
           Meet all customers 
           <IoIosArrowRoundForward size={26} />

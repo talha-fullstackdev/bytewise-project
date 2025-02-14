@@ -1,12 +1,3 @@
-// import React from 'react'
-
-// const PageNotFound = () => {
-//   return (
-//     <div>404 Page Not Found!</div>
-//   )
-// }
-
-// export default PageNotFound
 import React from "react";
 import { Link } from "react-router-dom";
 

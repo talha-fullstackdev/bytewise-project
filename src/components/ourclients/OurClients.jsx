@@ -11,7 +11,6 @@ const OurClients = () => {
   return (
     <AnimatedWrapper>
     <div className="flex flex-col gap-6 mt-10 px-4">
-      {/* Title Section */}
       <div className="text-center">
         <p className="text-[#4D4D4D] font-semibold text-lg md:text-4xl">
           Our Clients
@@ -21,7 +20,6 @@ const OurClients = () => {
         </p>
       </div>
 
-      {/* Icons Flex Layout */}
       <div className="flex flex-wrap justify-center gap-6 md:mt-4 md:gap-12 md:justify-evenly overflow-x-auto">
         <img className="w-10 md:w-14" src={icon1} alt="icon1" />
         <img className="w-10 md:w-14" src={icon2} alt="icon2" />
@@ -31,8 +29,6 @@ const OurClients = () => {
         <img className="w-10 md:w-14" src={icon6} alt="icon6" />
         <img className="w-10 md:w-14" src={icon7} alt="icon7" />
       </div>
-
-      {/* Bottom Text Section */}
       <div className="md:mt-6 text-center">
         <p className="text-[#4D4D4D] leading-[44px] text-md md:text-3xl font-semibold max-w-md mx-auto ">
           Manage your entire community in a single system
