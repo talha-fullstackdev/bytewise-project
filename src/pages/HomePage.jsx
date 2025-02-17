@@ -9,7 +9,9 @@ import Tesla from '../components/tesla/Tesla'
 import Marketing from '../components/marketing/Marketing'
 import Fringilla from "../components/fringilla/Fringilla.jsx"
 import Footer from '../components/footer/Footer.jsx'
+import useTitle from '../hooks/UseTitle.jsx'
 const HomePage = () => {
+  useTitle("bytewise")
   return (
     <>
       <Hero/>

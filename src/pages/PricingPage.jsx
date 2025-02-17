@@ -4,7 +4,9 @@ import { FaSquareWebAwesome } from "react-icons/fa6";
 import { IoLogoAndroid } from "react-icons/io";
 import { SiAdobexd } from "react-icons/si";
 import AnimatedWrapper from "../hooks/AnimatedWrapper";
+import useTitle from "../hooks/UseTitle";
 const PricingPage = () => {
+  useTitle("pricing")
   const data = [
     {
       icon: <FaSquareWebAwesome />,

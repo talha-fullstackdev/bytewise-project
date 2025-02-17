@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import useTitle from "../hooks/UseTitle";
 const PageNotFound = () => {
+  useTitle("page not found!")
   return (
     <div className="flex flex-col items-center justify-center min-h-screen font-semibold  text-[#4D4D4D] text-center p-5">
       <h1 className="text-6xl font-bold mb-4 animate-bounce">404</h1>
