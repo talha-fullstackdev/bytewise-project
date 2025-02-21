@@ -21,7 +21,7 @@ const PixelGrade = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis.
         </p>
         <div className="flex justify-start md:justify-normal">
-          <button className="bg-[#45d449] m-auto md:m-0 hover:bg-[#3cbf3f] text-white px-2 py-1   md:px-5 md:py-3 transition duration-300 shadow-md text-xl">
+          <button className="bg-[#45d449] m-auto md:m-0 rounded-md md:rounded-lg hover:bg-[#3cbf3f] text-white px-2 py-1   md:px-5 md:py-3 transition duration-300 shadow-md text-xl">
             Learn More
           </button>
         </div>
