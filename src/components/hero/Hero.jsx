@@ -8,7 +8,7 @@ const Hero = () => {
     <div  className="bg-gray-100 flex flex-col items-center py-10 px-4 text-center md:flex-row md:justify-around md:text-left">
 
       <section className="flex flex-col items-center gap-4 max-w-md md:max-w-lg md:items-start w-full md:w-auto ">
-        <h1 className="text-gray-700 font-semibold text-xl md:text-5xl md:max-w-[700px] leading-tight">
+        <h1 className="text-slate-500 font-semibold text-xl md:text-5xl md:max-w-[700px] leading-tight">
           Lessons and insights <br className="hidden md:block" />
           <span className="text-[#45d449] ">from 8 years</span>
         </h1>
